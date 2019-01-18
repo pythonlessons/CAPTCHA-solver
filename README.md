@@ -8,4 +8,6 @@ If you downloaded these files, what you will need to do first is extract CAPTCHA
 
 After this open CAPTCHA_object_detection.py file and check if you have all imported libraries to run this model.
 
+After that, open main_.py file and you can try to solve my examples.
+
 If you have questions, you can find solutions on my text version tutorials, but if you still have questions write your comment under my YouTube video tutorial.
