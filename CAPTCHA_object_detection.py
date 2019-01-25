@@ -47,6 +47,8 @@ def Captcha_detection(image, average_distance_error=3):
         with tf.Session(graph=detection_graph) as sess:
             # Open image
             image_np = cv2.imread(image)
+            # resize image if needed
+            image_np = cv2.resize(image_np, (0,0), fx=3, fy=3) 
             # To get real color we do this:
             image_np = cv2.cvtColor(image_np, cv2.COLOR_BGR2RGB)
             # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
